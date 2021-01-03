@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './App.css';
 import firebase from 'firebase/app'
 import 'firebase/firestore';
@@ -21,15 +21,64 @@ firebase.initializeApp({
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 
+const [user] = useAuthState(auth);
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
 
       </header>
+      <section>
+        {user ? <ChatRoom /> : <SignIn />}
+      </section>
     </div>
   );
 }
+
+function SignIn() {
+  const signInWithGoogle = () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    auth.signInWithPopup(provider)
+  }
+
+  return (
+    <button onClick={signInWithGoogle}>Sign In With Google </button>
+  )
+}
+
+function SignOut() {
+  return auth.currentUser && (
+    <button onClick={() => auth.signOut()}>SignOut</button>
+  )
+}
+
+function ChatRoom() {
+  const messagesRef = firestore.collection('messages');
+  const query = messagesRef.orderBy('createdAt').limit(25)
+
+  const [messages] = useCollectionData(query, { idField: 'id' })
+
+
+
+  return (
+    <Fragment>
+      <div>
+        {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
+      </div>
+      <div>
+
+      </div>
+    </Fragment>
+  )
+}
+
+function ChatMessage() {
+  const { text, uid } = props.message;
+
+  return <p>{text}</p>
+}
+
 
 export default App;
