@@ -102,7 +102,6 @@ function ChatRoom() {
       <span ref={dummy}></span>
 
     </main>
-
     <form onSubmit={sendMessage}>
 
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Message" />
