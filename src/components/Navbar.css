@@ -1,0 +1,89 @@
+.container {
+    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar-logo {
+    color: white;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.fa-user-secret {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.nav-links:hover {
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        height: 70px;
+        font-size: 0.8rem;
+    }
+
+    .navbar-logo {
+        margin-left: 20px;
+        font-size: 0.8rem;
+    }
+
+    .fa-user-secret {
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .container {
+        height: 65px;
+        font-size: 0.6rem;
+    }
+
+    .navbar-logo {
+        margin-left: 20px;
+        font-size: 0.6rem;
+    }
+
+    .fa-user-secret {
+        margin-left: 0.4rem;
+        font-size: 0.6rem;
+    }
+
+    .nav-menu {
+        grid-gap: 7px;
+        width: 60vw;
+        margin-right: 1.5rem;
+    }
+}
