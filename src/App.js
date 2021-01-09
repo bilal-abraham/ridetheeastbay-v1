@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
 import Home from './components/pages/Home'
-import Services from './components/pages/Services'
+import ChatRooms from './components/pages/ChatRooms'
 import About from './components/pages/About'
+import Error404 from './components/pages/Error404'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css';
 
@@ -11,9 +12,9 @@ const App = () => {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/services" exact component={Services} />
+          <Route path="/chatrooms" exact component={ChatRooms} />
           <Route path="/about" exact component={About} />
-          <Route path="/" render={() => <h1>Error 404</h1>} />
+          <Route path="/" component={Error404} />
         </Switch>
       </BrowserRouter>
     </Fragment>

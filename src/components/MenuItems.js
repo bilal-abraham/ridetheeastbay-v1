@@ -5,8 +5,8 @@ const MenuItems = [
         class: 'nav-links'
     },
     {
-        title: 'Services',
-        link: '/services',
+        title: 'Chat Rooms',
+        link: '/chatrooms',
         class: 'nav-links'
     },
     {
