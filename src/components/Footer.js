@@ -6,7 +6,7 @@ const Footer = () => {
         <Fragment>
             <section className="footer-container">
                 <div className="messages">
-                    <p className="copyright">SecretChat © 2020</p>
+                    <p className="copyright">Ride The East Bay © 2021</p>
                 </div>
                 <div className="social-icons">
                     <a href="https://www.instagram.com/">

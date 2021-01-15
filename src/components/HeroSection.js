@@ -3,14 +3,14 @@ import Button from './Button'
 import './HeroSection.css'
 
 
-const HeroSection = (props) => {
+const HeroSection = () => {
     return (
         <Fragment>
             <div className="hero-container">
                 <video src="/videos/video-2.mp4" autoPlay loop muted />
-                <h1>Secretly Chat With Friends</h1>
-                <p>What are you waiting for?</p>
-                <Button title="Create Chat Room" link="/chatrooms" />
+                <h1>Help Us Distribute Bikes</h1>
+                <p>Donate a bike or helmet!</p>
+                <Button title="Donate" link="/donate" />
             </div>
         </Fragment >
     )

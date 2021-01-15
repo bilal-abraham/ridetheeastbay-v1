@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <Fragment>
             <nav className="container">
-                <h1 className="navbar-logo">Secret Chat<i className="fas fa-user-secret" /></h1>
+                <h1 className="navbar-logo">Ride EastBay<i className="fas fa-user-secret" /></h1>
                 <ul className='nav-menu'>
                     {MenuItems.map((item, i) => {
                         return (

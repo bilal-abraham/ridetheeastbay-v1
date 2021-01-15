@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 
-const ChatRooms = () => {
+const Donate = () => {
     return (
         <Fragment>
             <Navbar />
@@ -11,4 +11,4 @@ const ChatRooms = () => {
     )
 }
 
-export default ChatRooms
+export default Donate

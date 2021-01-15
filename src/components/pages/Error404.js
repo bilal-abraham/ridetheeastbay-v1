@@ -9,8 +9,8 @@ const Error404 = () => {
             <Navbar />
             <Fragment>
                 <div className="hero-container">
-                    <video src="/videos/video-2.mp4" autoPlay loop muted />
-                    <h1>Error 404                                           <i class="fas fa-exclamation" /></h1>
+                    <video src="/images/img.png" />
+                    <h1>Error 404                                        <i class="fas fa-exclamation" /></h1>
                     <Button title="Go Home" link="/" />
                 </div>
             </Fragment >
