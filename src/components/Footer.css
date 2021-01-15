@@ -1,5 +1,5 @@
 .footer-container {
-    background:linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%);
+    background: linear-gradient(90deg, rgb(70, 204, 81) 0%, rgb(197, 211, 0) 100%);
     padding: 2.3rem 0 2rem 0;
     display: flex;
     color:white;
@@ -20,7 +20,7 @@ i, i:focus, i:visited, i:active {
 }
 
 i:hover {
-    border-bottom: 2px solid white;
+    color:lightslategray;
 }
 
 @media screen and (max-width: 500px) { 
