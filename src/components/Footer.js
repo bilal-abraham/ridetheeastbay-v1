@@ -15,7 +15,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/bilal-abraham-3140491b8/">
                         <i className="fab fa-linkedin" />
                     </a>
-                    <a href="https://github.com/bilal-abraham/secretchat">
+                    <a href="https://github.com/bilal-abraham/ridetheeastbay">
                         <i className="fab fa-github" />
                     </a>
                 </div>
