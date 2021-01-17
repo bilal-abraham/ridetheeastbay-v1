@@ -6,7 +6,7 @@ const DonateHero = () => {
         <Fragment>
             <div className="hero-container">
                 <div className="donate-wraper" />
-                <h1>Donate on to our Initiative</h1>
+                <h1>Donate to our Initiative</h1>
                 <p>Direct Message Us on Instagram</p>
                 <a href="https://www.instagram.com/ridetheeastbay/?igshid=lm061psb2uzw">
                     <button className="btn">
