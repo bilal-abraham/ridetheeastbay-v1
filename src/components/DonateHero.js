@@ -10,7 +10,7 @@ const DonateHero = () => {
                 <p>Direct Message Us on Instagram</p>
                 <a href="https://www.instagram.com/ridetheeastbay/?igshid=lm061psb2uzw">
                     <button className="btn">
-                        DONATE
+                        DONATE<i className="fas fa-donate" />
                     </button>
                 </a>
             </div>

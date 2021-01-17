@@ -9,7 +9,7 @@
     object-fit: cover;
     width: 100vw;
     height: 100vh;
-    position: fixed;
+    position: absolute;
     z-index: -1;
   }
   .hero-container {
@@ -45,10 +45,10 @@
     margin: 6px;
   }
   
-  .fa-play-circle {
+  .fa-donate {
     margin-left: 4px;
   }
-  
+
   @media screen and (max-width: 960px) {
     .hero-container > h1 {
       font-size: 70px;
