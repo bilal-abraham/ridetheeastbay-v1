@@ -1,6 +1,11 @@
-.logo-background {
-    background-image: url(img-logo.png);
-    background-size: 50vw;
+.donate-wraper {
+    background: url(img-donate.png);
+    background-size: 100vw;
+}
+
+.donate-wraper {
+    background-image: url(img-donate.png);
+    background-size: 100vw;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
