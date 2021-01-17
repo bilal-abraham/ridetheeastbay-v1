@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <Fragment>
             <div className="hero-container">
-                <img />
+                <img className="logo-background" />
                 <h1>Help Us Distribute Bikes</h1>
                 <p>Donate a bike or helmet!</p>
                 <Button title="Donate" link="/donate" />

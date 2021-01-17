@@ -19,7 +19,7 @@ i, i:focus, i:visited, i:active {
     color:white; 
 }
 
-i:hover {
+.i:hover {
     color:lightslategray;
 }
 

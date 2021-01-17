@@ -1,3 +1,7 @@
+.home-nav-link {
+    text-decoration: none;
+}
+
 .container {
     background: linear-gradient(90deg, rgb(70, 204, 81) 0%, rgb(197, 211, 0) 100%);
     height: 80px;

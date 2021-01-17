@@ -1,4 +1,4 @@
-img {
+.logo-background {
     background-image: url(img-logo.png);
     object-fit: cover;
     width: 100vw;
