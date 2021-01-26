@@ -8,7 +8,7 @@ const DonateHero = () => {
                 <div className="donate-wraper" />
                 <h1>Donate to our Initiative</h1>
                 <p>Message us on Instagram or Email</p>
-                <a href="https://www.instagram.com/ridetheeastbay/?igshid=lm061psb2uzw">
+                <a href="https://www.paypal.com/paypalme/ridetheeastbay">
                     <button className="btn">
                         DONATE<i className="fas fa-donate" />
                     </button>
