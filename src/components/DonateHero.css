@@ -1,6 +1,6 @@
 
 
-.donate-wraper {
+.donate-wrapper {
     background-image: url(img-donate.png);
     background-size: 100vw;
     object-fit: cover;
@@ -44,6 +44,15 @@
   
   .fa-donate {
     margin-left: 4px;
+  }
+
+  .donation-inline {
+    display:flex;
+  }
+
+  .donate-btn-spacer {
+    padding-left: 7px;
+    padding-right: 7px;
   }
   @media screen and (max-width: 1200px) {
     .donate-wraper {
