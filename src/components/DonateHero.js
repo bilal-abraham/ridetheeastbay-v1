@@ -13,7 +13,7 @@ const DonateHero = () => {
                 <h1>Donate to our Initiative</h1>
                 <p>Message us on Instagram or Email</p>
                 <div className="donation-inline">
-                    <div onClick={() => openInNewTab('https://www.paypal.com/paypalme/ridetheeastbay')}>
+                    <div onClick={() => openInNewTab('https://www.gofundme.com/f/ride-the-east-bay?utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer')}>
                         <button className="btn">
                             DONATE<i className="fas fa-donate" />
                         </button>
