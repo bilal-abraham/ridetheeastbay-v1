@@ -11,24 +11,53 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src="images/bike-1.png"
-                            text="Red Royal Baby Bike (14in Tire)"
+                            text="Red Royal Baby Bike (14 inch Tire)"
+                            label="Kids"
+                        />
+                        <CardItem
+                            src="images/bike-3.png"
+                            text="Green KaZam Walker Bike (12 inch Tire)"
+                            label="Kids"
+                        />
+                    </ul>
+                    <ul className="cards__items">
+                        <CardItem
+                            src="images/bike-4.png"
+                            text="Light Blue Electra Hawaii Bike (16 inch Tire)"
+                            label="Kids"
+                        />
+                        <CardItem
+                            src="images/bike-5.png"
+                            text="Purple Specialized Bike (20 inch Tire)"
+                            label="Kids"
+                        />
+                        <CardItem
+                            src="images/bike-6.png"
+                            text="Honda Racing Kids Mountain Bike (20 inch Tire)"
+                            label="Kids"
+                        />
+                    </ul>
+                    <ul className="cards__items">
+                        <CardItem
+                            src="images/bike-7.png"
+                            text="Black Upland Kids Bike (12 inch Tire)"
                             label="Kids"
                         />
                         <CardItem
                             src="images/bike-8.png"
-                            text="Green KaZam Walker Bike (12in Tire)"
+                            text="Pink Trek Kids Bike (16 inch Tire)"
                             label="Kids"
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem
                             src="images/bike-9.png"
-                            text="Light Blue Electra Hawaii Bike (16in Tire)"
+                            text="Purple Huffy Kids Bike (14 inch Tire)"
                             label="Kids"
                         />
                         <CardItem
                             src="images/bike-10.png"
-                            text="Purple Specialized Bike (20in Tire)"
+                            text="Purple Specialized Bike (20 inch Tire)"
                             label="Kids"
                         />
                     </ul>
@@ -40,7 +69,7 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src="images/bike-2.png"
-                            text="Blue Raleigh Bike (16in Tire)"
+                            text="Blue Raleigh Bike (16 inch Tire)"
                             label="Donated!"
                         />
                     </ul>
