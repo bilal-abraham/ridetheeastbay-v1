@@ -11,7 +11,7 @@ const Stats = () => {
                         <i className="fa fa-bicycle fa-2x text-lightblue" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Bikes Availible </p>
-                            <span className="font-bold text-title">11</span>
+                            <span className="font-bold text-title">10</span>
                         </div>
                     </div>
 
