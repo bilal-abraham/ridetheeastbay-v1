@@ -1,23 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 .stat-container {
+    padding-top: 3%;
     background-color: white;
-    align-items: center;
-    display: grid;
-    height: 30vh;
-    grid-template-rows: 3fr;
-    grid-template-areas:
-    "main main main";
+    justify-content: center;
+    display: flex;
 }
 
 .main__cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
-    margin: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
-.card {
+.stat-card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -25,7 +20,7 @@
     padding: 25px;
     border-radius: 5px;
     background: #ffffff;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px white;
 }
 
 .card_inner {
@@ -35,12 +30,11 @@
 }
 
 .card_inner > span {
+    padding-left: 10px;
     font-size: 25px;
 }
 
 .card1 {
-    background: #d1ecf1;
-    color: #35a4ba;
     text-align: center;
     padding: 25px;
     border-radius: 5px;
@@ -48,8 +42,6 @@
 }
 
 .card2 {
-    background: #d2f9ee;
-    color: #38e1b0;
     text-align: center;
     padding: 25px;
     border-radius: 5px;
@@ -57,8 +49,6 @@
 }
 
 .card3 {
-    background: #d6d8d9;
-    color: #3a3e41;
     text-align: center;
     padding: 25px;
     border-radius: 5px;
@@ -66,8 +56,6 @@
 }
 
 .card4 {
-    background: #fddcdf;
-    color: #f65a6f;
     text-align: center;
     padding: 25px;
     border-radius: 5px;

@@ -7,7 +7,7 @@ const Stats = () => {
         <Fragment>
             <div class="stat-container">
                 <div className="main__cards">
-                    <div className="card">
+                    <div className="stat-card">
                         <i className="fa fa-bicycle fa-2x text-lightblue" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Bikes Availible </p>
@@ -15,7 +15,7 @@ const Stats = () => {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="stat-card">
                         <i className="fa fa-wrench fa-2x text-red" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Bikes Being Refurbished</p>
@@ -23,7 +23,7 @@ const Stats = () => {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="stat-card">
                         <i className="fa fa-donate fa-2x text-yellow" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Bikes Donated</p>
@@ -31,7 +31,7 @@ const Stats = () => {
                         </div>
                     </div>
 
-                    <div className="card">
+                    <div className="stat-card">
                         <i className="fa fa-home fa-2x text-green" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Families Helped</p>
