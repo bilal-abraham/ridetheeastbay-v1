@@ -11,7 +11,7 @@ const Stats = () => {
                         <i className="fa fa-bicycle fa-2x text-lightblue" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Bikes Availible </p>
-                            <span className="font-bold text-title">10</span>
+                            <span className="font-bold text-title">11</span>
                         </div>
                     </div>
 
@@ -27,7 +27,7 @@ const Stats = () => {
                         <i className="fa fa-donate fa-2x text-yellow" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Bikes Donated</p>
-                            <span className="font-bold text-title">7</span>
+                            <span className="font-bold text-title">6</span>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const Stats = () => {
                         <i className="fa fa-home fa-2x text-green" aria-hidden="true"></i>
                         <div className="card_inner">
                             <p className="text-primary-p">Families Helped</p>
-                            <span className="font-bold text-title">3</span>
+                            <span className="font-bold text-title">4</span>
                         </div>
                     </div>
                 </div>
