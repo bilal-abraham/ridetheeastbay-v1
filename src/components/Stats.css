@@ -9,6 +9,8 @@
 
 .main__cards {
     display: flex;
+    flex-wrap: wrap;
+    flex-grow:1;
     justify-content: center;
 }
 
@@ -90,4 +92,11 @@
 
 .text-green {
     color: #3b9668;
+}
+
+@media only screen and (max-width: 800px) {
+    div.stat-card {
+        flex-grow: 1;
+        flex-basis: 33%
+    }
 }

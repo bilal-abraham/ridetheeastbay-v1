@@ -42,6 +42,8 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    cursor: default; 
+    /* MAKE MODAL */
   }
   
   .cards__item__pic-wrap {

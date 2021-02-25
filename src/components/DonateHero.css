@@ -1,8 +1,6 @@
-
-
 .donate-wrapper {
     background-image: url(img-donate.png);
-    background-size: 100vw;
+    background-size: cover;
     object-fit: cover;
     width: 100vw;
     height: 100vh;

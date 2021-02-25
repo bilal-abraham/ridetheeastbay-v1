@@ -1,6 +1,7 @@
 .logo-background {
     background-image: url(img-logo.png);
     background-size: 50vw;
+    background-repeat: repeat-x;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
@@ -48,6 +49,10 @@
     .hero-container > h1 {
       font-size: 70px;
       margin-top: -150px;
+    }
+    .logo-background{
+      background-size: 100vw;
+      background-repeat: repeat;
     }
   }
   
