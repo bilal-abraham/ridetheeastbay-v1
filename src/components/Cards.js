@@ -35,20 +35,20 @@ function Cards() {
                         />
                         <CardItem
                             src="images/bike-11.png"
-                            text="Giant Kids Bike (L Frame / 26 Inch Tire)"
-                            label="Kids"
+                            text="Giant Adult Bike(L Frame / 26 Inch Tire)"
+                            label="Adult"
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem
                             src="images/bike-13.png"
                             text="Red Specialized Hotrock Bike (24 Inch Tire)"
-                            label="Kids"
+                            label="Big Kids"
                         />
                         <CardItem
                             src="images/bike-15.png"
                             text="Lime Holeshot Bike (24 Inch Tire)"
-                            label="Kids"
+                            label="Big Kids"
                         />
                         <CardItem
                             src="images/bike-16.png"
