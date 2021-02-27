@@ -14,7 +14,7 @@ function CardItem(props) {
                     </div>
                 </Link>
             </li>
-        </Fragment>
+        </Fragment >
     );
 }
 

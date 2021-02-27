@@ -1,7 +1,8 @@
 .logo-background {
     background-image: url(img-logo.png);
-    background-size: 50vw;
-    background-repeat: repeat-x;
+    /* background-size: 50vw; */
+    /* background-repeat: repeat-x; */
+    background-repeat: round;
     object-fit: cover;
     width: 100vw;
     height: 100vh;

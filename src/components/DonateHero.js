@@ -8,7 +8,7 @@ const DonateHero = () => {
     }
     return (
         <Fragment>
-            <div className="hero-container">
+            <div className="donate-hero-container">
                 <div className="donate-wrapper" />
                 <h1>Donate to our Initiative</h1>
                 <p>Message us on Instagram or Email</p>
